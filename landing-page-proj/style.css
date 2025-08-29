@@ -112,7 +112,42 @@ body{
     margin-left:auto;
 }
 
+.bottom{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
 
+.notif{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.ltext{
+    text-align: left;
+}
+.tit{
+    font-weight: bolder;
+    font-size: larger;
+}
+.rbutton{
+    color: white;
+    background-color: #3882F6;
+    max-width: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    flex:auto;
+    margin-left: auto;
+}
 
 
 
